@@ -1,0 +1,33 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/6371a7b83893565c2e6e55b5
+
+###
+
+POST  http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "David Wheeler",
+    "subscribedToChannel": "DavidsChannel"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/6371a3b80c452f57b2065161
+
+###
+
+PATCH  http://localhost:3000/subscribers/6371a8193893565c2e6e55ba
+Content-Type: application/json
+
+{
+    "name": "David Wheeler"
+}
+
+
+
+
+
